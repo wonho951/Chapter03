@@ -70,6 +70,8 @@ public class Ex02 {
 		
 		System.out.println(str.charAt(6));
 		
+		
+		//substring --> 
 		String result = str.substring(3);
 		System.out.println(str.substring(3));
 		

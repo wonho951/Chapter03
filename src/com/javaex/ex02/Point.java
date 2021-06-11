@@ -41,7 +41,7 @@ public class Point {
 	
 	//equals는 이것보다 더 심오한경우도 있음.
 	@Override
-	public boolean equals(Object obj) {  //껍데기만 알려준거
+	public boolean equals(Object obj) {  //부모쪽에 있는 껍데기만 알려준거.맘에 안들면 밑에처럼 재정의해서 사용가능.
 		//안에 내용 채워야함.
 		
 		//boolean result; //if문안에 return 어색할때 사용

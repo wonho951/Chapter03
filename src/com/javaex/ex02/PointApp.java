@@ -53,14 +53,6 @@ public class PointApp {
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }

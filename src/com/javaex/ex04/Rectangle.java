@@ -31,7 +31,7 @@ public class Rectangle {
 
 	//메소드-일반 
 	//데이터 테스트
-	@Override
+	@Override //이거 없으면 Object에 있는거 나옴.
 	public String toString() {
 		return "Rectangle [width=" + width + ", height=" + height + "]";
 	}

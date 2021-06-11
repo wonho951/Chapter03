@@ -2,8 +2,7 @@ package com.javaex.ex05;
 
 public class Ex02 {
 
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		//String 자주쓰는 메소드 소개.
 		//concat
 		String a = new String(" abcd");
@@ -41,7 +40,7 @@ public class Ex02 {
 		System.out.println("-------------------------------");
 		System.out.println("");
 		
-		
+		///////////////////////////
 		//replace --> 바꾸기
 		a = a.replace("ab", "12");	//ab를 12로 바꿔친다.
 		System.out.println(a);
@@ -51,7 +50,7 @@ public class Ex02 {
 		System.out.println("-------------------------------");
 		System.out.println("");
 		
-		
+		//////////////////////////
 		//split
 		String[] sArray = a.split(",");	// "," 기준으로 좌우로 짤라라 배열이기 떄문에 배열로 자료형 선언
 								//12cd efg사이에 ,가 있기때문에 ,사라지고 쪼개짐
@@ -64,13 +63,15 @@ public class Ex02 {
 		System.out.println("-------------------------------");
 		System.out.println("");
 		
-		
+		///////////////////////////
 		//charAt --> 배열안에 있는 값이라고 생각하고 문자열 쪼개줌.
 		String str = "Hello java!";
 		
 		System.out.println(str.charAt(6));
 		
 		
+		
+		///////////////////////////
 		//substring --> 자료형 한개
 		String result = str.substring(3);
 		System.out.println(result);	//3번째 방부터 끝까지 출력

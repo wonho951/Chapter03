@@ -45,9 +45,9 @@ public class PointApp {
 		System.out.println(p01.equals(p02));
 		System.out.println(p00.equals(p01));	//x, y의 값은 같음. 근데 false나옴. 정우성의 키, 유희열의 키 이걸로 생각해보기.
 							//자료의 값이 같아도 다를 수 있으니까 좀 심오함.
-		System.out.println(p00==p01); //주소가 다름.
-		System.out.println(p01==p02);
-		System.out.println(p00==p03); //왜그런지 고민해보기
+		System.out.println(p00==p01);	//주소가 같냐고 물어봤는데 다름.
+		System.out.println(p01==p02);	//주소가 같냐고 물어봤는데 다름.
+		System.out.println(p00==p03);	//주소가 같냐고 물어봤는데 같음.
 		System.out.println("===========================");
 		System.out.println("");
 		

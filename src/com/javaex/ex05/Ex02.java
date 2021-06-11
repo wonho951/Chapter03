@@ -71,13 +71,13 @@ public class Ex02 {
 		System.out.println(str.charAt(6));
 		
 		
-		//substring --> 
+		//substring --> 자료형 한개
 		String result = str.substring(3);
-		System.out.println(str.substring(3));
+		System.out.println(result);	//3번째 방부터 끝까지 출력
 		
-		
-		
-		
+		//substring --> 자료형 두개인거
+		String result2 = str.substring(3, 7);	//시작점, 끝--> x~x까지 끊는다.
+		System.out.println(result2);	//3~7번방까지만 출력
 		
 		
 		

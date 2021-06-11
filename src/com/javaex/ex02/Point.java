@@ -1,4 +1,4 @@
-package com.javaex.ex01;
+package com.javaex.ex02;
 
 public class Point {
 
@@ -31,8 +31,6 @@ public class Point {
 	public void setY(int y) {
 		this.y = y;
 	}
-
-
 
 	// 메소드 - 일반
 	@Override

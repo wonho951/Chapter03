@@ -70,6 +70,34 @@ public class Ex01 {
 		String str2 = "hi";	//new String("hi")랑 비스무리 하지만 주소찾는중
 		
 		
+		//문자입력시 프로그램 종료된다고 가정할때
+		System.out.println("---------------------------");
+		
+		String yn = "y";	//사용자가 입력한 값.
+		//String yn = new String("y"); --> 이거랑 같음.
+		yn=null;	//-->yn의 값이 y가 아닌 다른값이 들어갈때를 가정.
+		
+		
+		
+		if(yn.equals("y")) {	//이렇게 많이 비교함. y값이 비어있을때는 위험함.
+			System.out.println("게임 다시 시작");
+		}
+		
+		//더 안전한 경우(equals())사용팁. --> null포인트 상황이 발생하지 않는다.
+		if("y".equals(yn)) {	//입력된 값과 yn을 비교함.
+			System.out.println("게임 다시 시작");
+		}
+		
+		
+		
+		
+		//다른 기본 자료형
+		Byte s = new Byte((byte)3);	//쓸일 거의 없음.
+		
+		
+		
+		
+		
 		
 		
 	}

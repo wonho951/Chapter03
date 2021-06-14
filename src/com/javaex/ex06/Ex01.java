@@ -47,6 +47,31 @@ public class Ex01 {
 		System.out.println(num2);
 		
 		
+		//정수--> 문자열로 바꾸는거 예제
+		System.out.println("-정수를 문자열로 바꾸는거---------------------------");
+		
+		String str = new String("hi");
+		String strResult = str.valueOf(123456);	//123456 --> "123456"으로 바꿈.
+		System.out.println(strResult);
+		
+		
+		//정수--> 문자열로 바꾸는거 실제사용
+		String strResult2 = String.valueOf("123456");
+		System.out.println(strResult2);
+		
+		
+		
+		// 정수--> 문자열로 많이 사용
+		System.out.println("-정수를 문자열로 바꾸는거(개발자들이 많이 사용)---------------------------");
+		String strResult3 = "" + 9876;		//9876 --> "9876" --> 어색해하지 말것.
+		System.out.println(strResult);
+		
+		
+		String str2 = "hi";	//new String("hi")랑 비스무리 하지만 주소찾는중
+		
+		
+		
+		
 	}
 
 }

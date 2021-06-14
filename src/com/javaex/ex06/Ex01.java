@@ -92,8 +92,8 @@ public class Ex01 {
 		
 		
 		//다른 기본 자료형
-		Byte s = new Byte((byte)3);	//쓸일 거의 없음.
-		
+		Byte b = new Byte((byte)3);	//쓸일 거의 없음.
+		Short s = new Short((short)1);
 		
 		
 		

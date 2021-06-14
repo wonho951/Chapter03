@@ -33,13 +33,17 @@ public class Ex01 {
 		System.out.println(i101);
 		
 		
-		//Integer의 메소드		
+		//Integer의 메소드	
+		//"12345" --> 12345 예제
 		System.out.println("-문자열을 정수로 바꾸는거---------------------------");
 		
-		Integer i999 = new Integer(999);	//	근데 굳이 여기에 숫자 담을 필요없음
+		Integer i999 = new Integer(999);	//	static이기 때문에 굳이 메모리에 올릴 필요가 없음.
 		int num = i999.parseInt("12345");	//	문자열 12345가 int형인 숫자 12345로 바뀜.-->문자열 안에 숫자 말고 문자가 들어가면 안됨.
 		System.out.println(num);
 		
+		
+		//"12345" --> 12345 실제 사용
+		int num2 = Integer.parseInt("12345");	// --> 실제로는 이렇게 사용함.
 		
 		
 	}

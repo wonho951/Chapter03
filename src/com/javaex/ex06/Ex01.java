@@ -16,15 +16,30 @@ public class Ex01 {
 		System.out.println(result);
 		
 		
-		int i10 = 7;
+		
+		int i10 = 7;	//i10. --> 이런거 없음,자료형이 int이고 값이 있기때문에.
+		i01.intValue();	//-->	메소드가 보임. 메모리에 박스 형태로 올라가있음--> 메모리맵 생각좀하자 제발.
+		
+		
+		
+		//박싱
 		Integer i11 = 10;	    //Interger i11 = new Integer(10);	--> 주소 들어감. 둘다 같음.
 		
 		
-		Integer i100 = 15;	//--> 박싱 된상태.
-		int i101 = i100;	//--> i100과 i101은 자료형이 다름. 그러나 i100의 값을 int자료형인 i101에 넣어줌. 
+		//언박싱
+		int i101 = i11;	//--> i100과 i11은 자료형이 다름. 그러나 i11의 값을 int자료형인 i101에 넣어줌. 
 							//--> integer의 박스 까서 int에 넣어줌. --> 언박싱
 		
 		System.out.println(i101);
+		
+		
+		//Integer의 메소드		
+		System.out.println("-문자열을 정수로 바꾸는거---------------------------");
+		
+		Integer i999 = new Integer(999);	//	근데 굳이 여기에 숫자 담을 필요없음
+		int num = i999.parseInt("12345");	//	문자열 12345가 int형인 숫자 12345로 바뀜.-->문자열 안에 숫자 말고 문자가 들어가면 안됨.
+		System.out.println(num);
+		
 		
 		
 	}

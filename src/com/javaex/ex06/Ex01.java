@@ -43,7 +43,8 @@ public class Ex01 {
 		
 		
 		//"12345" --> 12345 실제 사용
-		int num2 = Integer.parseInt("12345");	// --> 실제로는 이렇게 사용함.
+		int num2 = Integer.parseInt("12345");	// --> 실제로는 이렇게 사용함. 가장 많이 사용함.
+		System.out.println(num2);
 		
 		
 	}
